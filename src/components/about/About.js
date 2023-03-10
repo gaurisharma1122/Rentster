@@ -4,7 +4,6 @@ import { steps } from "../../data";
 import AboutStep from "./AboutStep";
 
 const About = () => {
-    console.log(steps)
     return (
         <section className="about">
             <div className="about-container">

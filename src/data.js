@@ -4,6 +4,9 @@ import img3 from "./images/img3.jpg";
 import img4 from "./images/img4.jpg";
 import img5 from "./images/img5.jpg";
 import img6 from "./images/img6.jpg";
+import person1 from "./images/person1.jpg";
+import person2 from "./images/person2.jpg";
+
 
 export const properties=[
     { id: 1, title: '3140 Cherry Street Mobile, AL', image: img2, option: 'rent' }, 
@@ -23,3 +26,7 @@ export const steps=[
     { id: 2, title: 'Select your location', text: 'Lorem ipsum dolor sit ametconsetetur sadipscing nonumy eirmod', icon: 'fa-solid fa-location-dot' },
     { id: 3, title: 'Rent or Buy', text: 'Lorem ipsum dolor sit ametconsetetur sadipscing nonumy eirmod', icon: 'fa-solid fa-house' },
 ];
+export const testimonials=[
+    { id:1, name: 'Rhea McLaughlin', profession: 'Creative Director', text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.', image: person1},
+    { id:2, name: 'Isabella Dolor', profession: 'Architect', text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.', image: person2}
+]
