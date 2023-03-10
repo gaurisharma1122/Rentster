@@ -1,4 +1,6 @@
 import About from "./components/about/About";
+import BestDeals from "./components/bestdeals/BestDeals";
+import Footer from "./components/footer/Footer";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Search from "./components/search/Search";
@@ -12,6 +14,8 @@ function App() {
       <About/>
       <Search/>
       <Testimonial/>
+      <BestDeals/>
+      <Footer/>
     </div>
   );
 }

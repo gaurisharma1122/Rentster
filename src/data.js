@@ -29,4 +29,10 @@ export const steps=[
 export const testimonials=[
     { id:1, name: 'Rhea McLaughlin', profession: 'Creative Director', text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.', image: person1},
     { id:2, name: 'Isabella Dolor', profession: 'Architect', text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.', image: person2}
-]
+];
+export const socialLinks=[
+    { id:1, href:'https://www.facebook.com/',  icon:'fa-brands fa-facebook'},
+    { id:2, href:'https://www.twitter.com/',  icon:'fa-brands fa-twitter'},
+    { id:3, href:'https://www.youtube.com/',  icon:'fa-brands fa-youtube'},
+    { id:4, href:'https://www.instagram.com/',  icon:'fa-brands fa-instagram'}
+];

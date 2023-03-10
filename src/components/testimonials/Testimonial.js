@@ -18,7 +18,8 @@ const Testimonial=()=>{
             let newIndex= index-1<0? testimonials.length-1: index-1;
             return newIndex;
         })
-    }
+    };
+    
     return(
         <section className="testimonial">
             <div className="testimonial-container">
